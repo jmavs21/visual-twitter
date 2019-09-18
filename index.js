@@ -1,5 +1,5 @@
-const CLOUD_IMG_TOKEN = '';
 const SCRAPER_API_KEY = '';
+const CLOUD_IMG_TOKEN = '';
 
 const requestPromise = require('request-promise');
 const express = require('express');
