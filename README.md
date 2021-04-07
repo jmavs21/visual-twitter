@@ -4,21 +4,21 @@ A simple **Node.js** app to search most recent images on Twitter.
 
 ## Implementation details
 
-- **Regular expression** to parse the HTML code from Twitter's page and get the images with the specific links to the twit.
-- [Scraper API](https://www.scraperapi.com/) was used as a demo to help scraping the web content.
+- **Regular expression** to parse the HTML code from Twitter's page and get the images with the specific links to the tweet.
+- [Scraper API](https://www.scraperapi.com/) was used as a demo for web scraping.
 - [Cloud Image](https://www.cloudimage.io/) was used as a demo for resizing and CDN delivery of the images.
 
 ## How to use source code
 
 1. Modify **index.js** file by updating the **SCRAPER_API_KEY** and **CLOUD_IMG_TOKEN** variables with your API keys.
 
-2. Restore dependencies
+2. Build
 
 ```sh
 npm i
 ```
 
-3. Run application
+3. Run
 
 ```sh
 node index.js
